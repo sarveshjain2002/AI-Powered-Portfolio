@@ -1,62 +1,3 @@
-
-
-
-# import streamlit as st
-
-# def about_me():
-#     # Create a layout with two columns
-#     col1, col2 = st.columns([1, 3])
-
-#     # Column 1: Display the image on the left side in a circular manner with a professional border
-#     with col1:
-#         st.image("D:/A FULL ENGINEERING DATA/1.GenAI/Portfolio_Gemini_/Sarvesh_Udapurkar1.png", 
-#                  caption="Sarvesh Udapurkar", 
-#                  width=180, use_column_width=False, output_format='PNG', )
-#         st.markdown("""
-#         <div class="social-icons-container">
-#             <a href="https://www.linkedin.com/in/sarvesh-udapurkar-30a6a4196/" target="_blank">
-#                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="social-icon" alt="LinkedIn">
-#             </a>
-#             <a href="https://github.com/sarveshjain2002" target="_blank">
-#                 <img src="https://cdn.jim-nielsen.com/macos/128/github-desktop-2021-05-20.png" class="social-icon" alt="GitHub">
-#             </a>
-#             <a href="mailto:udapurkarsarvesh@gmail.com" target="_blank">
-#                 <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="social-icon" alt="Gmail">
-#             </a>
-#         </div>
-#         """, unsafe_allow_html=True)
-
-    
-#     # Column 2: Display the text content on the right side
-#     with col2:
-#         st.write("""
-#         Hi, I'm Sarvesh Udapurkar, a tech enthusiast with a solid background in IT. I'm passionate about 
-#         cybersecurity and AI development, constantly exploring new technologies and solutions to tackle 
-#         challenges in these fields.
-#         """)
-
-#         st.subheader("Key Points")
-#         st.markdown("""
-#         - 🌟 **Tech Enthusiast**: Passionate about Cloud ☁️, Security 🔒, and AI 🤖
-#         - 🎓 **Solid IT Background**: Thrives on tackling challenges and discovering innovative solutions
-#         - 🚀 **Team Player**: Loves participating in hackathons and developer clubs
-#         - 💼 **Professional Focus**: Specializes in Cybersecurity and AI development
-#         - ⚽ **Outside Tech**: Enjoys playing football, trekking ⛰️, hitting the gym 💪, and exploring good food 🍴
-#         - 🌱 **Life Philosophy**: Believes in maintaining a healthy work-life balance for inspiration and productivity
-#         """)
-
-#         st.subheader("Professional Achievements")
-#         st.markdown("""
-#         - Developed a cybersecurity framework for XYZ project
-#         - Implemented machine learning models for anomaly detection in network traffic
-#         - Contributed to open-source projects in the cybersecurity community
-#         """)
-
-# if __name__ == "__main__":
-#     about_me()
-
-
-
 import streamlit as st
 
 def about_me():
@@ -65,7 +6,7 @@ def about_me():
 
     # Column 1: Display the image on the left side in a circular manner with a professional border
     with col1:
-        st.image("AI Powered Portfolio/Sarvesh_Udapurkar1.png", 
+        st.image("Sarvesh_Udapurkar1.png", 
                  caption="Sarvesh Udapurkar", 
                  width=180, use_column_width=False, output_format='PNG', )
         st.markdown("""
