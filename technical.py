@@ -19,7 +19,7 @@ def technical():
     st.markdown(f"**Deployed Link:** [{project['deployment_link']}]({project['deployment_link']})")
     
     # Display video using st.video()
-    st.video(project['video_path'], start_time=0, format='AI Powered Portfolio/video/webm', autoplay=True)
+    st.video(project['video_path'], start_time=0, format='webm', autoplay=True)
     
 if __name__ == "__main__":
     technical()
