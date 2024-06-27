@@ -9,7 +9,7 @@ def technical():
         "title": "1. Image Researcher",
         "technologies": "LangChain, Google Gemini Vision Pro",
         "deployment_link": "https://imageresearcher.streamlit.app/",
-        "video_path": "AI Powered Portfolio/Video/Proof_Image.webm",
+        "video_path": "Proof_Image.webm",
         # "image_path": "D:/A FULL ENGINEERING DATA/1.GenAI/Portfolio_Gemini_/Images/image_researcher.png"
     }
     
