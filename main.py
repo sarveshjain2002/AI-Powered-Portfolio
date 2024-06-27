@@ -179,7 +179,7 @@ def main():
         chain = get_conversational_chain()
 
         # Process PDF
-        pdf_path = "AI Powered Portfolio/Sarvesh_Udapurkar_6M_Intern_TCS_GenAI.pdf"
+        pdf_path = "Sarvesh_Udapurkar_6M_Intern_TCS_GenAI.pdf"
         
         if process_pdf(pdf_path):
             st.write("""
